@@ -3,7 +3,7 @@ from tinydb.database import Table
 from tinydb.storages import MemoryStorage
 import pytest
 
-from tiny_smartcache import SmartCacheTable
+from tinydb_smartcache import SmartCacheTable
 
 
 @pytest.fixture
